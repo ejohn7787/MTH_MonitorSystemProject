@@ -1,0 +1,16 @@
+D:\Sample\上位机\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\zj.MTHHelper\bin\Debug\zj.MTHHelper.dll
+D:\Sample\上位机\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\zj.MTHHelper\bin\Debug\zj.MTHHelper.pdb
+D:\Sample\上位机\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\zj.MTHHelper\obj\Debug\zj.MTHHelper.csproj.AssemblyReference.cache
+D:\Sample\上位机\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\zj.MTHHelper\obj\Debug\zj.MTHHelper.csproj.CoreCompileInputs.cache
+D:\Sample\上位机\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\zj.MTHHelper\obj\Debug\zj.MTHHelper.dll
+D:\Sample\上位机\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\zj.MTHHelper\obj\Debug\zj.MTHHelper.pdb
+D:\Sample\上位机\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\zj.MTHHelper\bin\Debug\Newtonsoft.Json.dll
+D:\Sample\上位机\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\zj.MTHHelper\obj\Debug\zj.MTHHelper.csproj.CopyComplete
+D:\Sample\上位机\ISCADA\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\zj.MTHHelper\bin\Debug\zj.MTHHelper.dll
+D:\Sample\上位机\ISCADA\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\zj.MTHHelper\bin\Debug\zj.MTHHelper.pdb
+D:\Sample\上位机\ISCADA\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\zj.MTHHelper\bin\Debug\Newtonsoft.Json.dll
+D:\Sample\上位机\ISCADA\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\zj.MTHHelper\obj\Debug\zj.MTHHelper.csproj.AssemblyReference.cache
+D:\Sample\上位机\ISCADA\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\zj.MTHHelper\obj\Debug\zj.MTHHelper.csproj.CoreCompileInputs.cache
+D:\Sample\上位机\ISCADA\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\zj.MTHHelper\obj\Debug\zj.MTHHelper.csproj.CopyComplete
+D:\Sample\上位机\ISCADA\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\zj.MTHHelper\obj\Debug\zj.MTHHelper.dll
+D:\Sample\上位机\ISCADA\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\zj.MTHHelper\obj\Debug\zj.MTHHelper.pdb

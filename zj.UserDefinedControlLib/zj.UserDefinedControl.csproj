@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AAFB77E2-85F4-4EE6-B0D5-8F66519FC125}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>zj.UserDefinedControl</RootNamespace>
+    <AssemblyName>zj.UserDefinedControl</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SeeSharpTools.JY.GUI">
+      <HintPath>..\..\..\..\上位机\MTH监控系统项目实战\MTH_MonitorSystemProjectDemo\MTH_MonitorSystem\bin\Debug\SeeSharpTools.JY.GUI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CheckBoxExt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CheckBoxExt.Designer.cs">
+      <DependentUpon>CheckBoxExt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DialPanel.Designer.cs">
+      <DependentUpon>DialPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LEDSignalLamp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LEDSignalLamp.Designer.cs">
+      <DependentUpon>LEDSignalLamp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialPlate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DialPlate.Designer.cs">
+      <DependentUpon>DialPlate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NaviButton.Designer.cs">
+      <DependentUpon>NaviButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PanelEx.Designer.cs">
+      <DependentUpon>PanelEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelExt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PanelExt.Designer.cs">
+      <DependentUpon>PanelExt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterShow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ParameterShow.Designer.cs">
+      <DependentUpon>ParameterShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParmeterSet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ParmeterSet.Designer.cs">
+      <DependentUpon>ParmeterSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="picButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="picButton.Designer.cs">
+      <DependentUpon>picButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RecipeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RecipeControl.Designer.cs">
+      <DependentUpon>RecipeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testGuage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="testGuage.Designer.cs">
+      <DependentUpon>testGuage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextSetEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TextSetEx.Designer.cs">
+      <DependentUpon>TextSetEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextSet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TextSet.Designer.cs">
+      <DependentUpon>TextSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Title.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Title.Designer.cs">
+      <DependentUpon>Title.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TitlePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TitlePanel.Designer.cs">
+      <DependentUpon>TitlePanel.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DialPanel.resx">
+      <DependentUpon>DialPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LEDSignalLamp.resx">
+      <DependentUpon>LEDSignalLamp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialPlate.resx">
+      <DependentUpon>DialPlate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NaviButton.resx">
+      <DependentUpon>NaviButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterShow.resx">
+      <DependentUpon>ParameterShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParmeterSet.resx">
+      <DependentUpon>ParmeterSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeControl.resx">
+      <DependentUpon>RecipeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testGuage.resx">
+      <DependentUpon>testGuage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextSetEx.resx">
+      <DependentUpon>TextSetEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextSet.resx">
+      <DependentUpon>TextSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Title.resx">
+      <DependentUpon>Title.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\93.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\102.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\104.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowback.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-0017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_status_err.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_status_info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_status_warn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_unlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\LeftSelected.png" />
+    <Content Include="Resources\LeftUnSelected.png" />
+    <Content Include="Resources\RightSelected.png" />
+    <Content Include="Resources\RightUnSelected.png" />
+    <None Include="Resources\Title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MTH_Models\MTH_Models.csproj">
+      <Project>{598A3494-EC13-4F63-8893-11822299596C}</Project>
+      <Name>MTH_Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

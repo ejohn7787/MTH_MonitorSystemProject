@@ -1,0 +1,22 @@
+E:\C#\自定义控件\UserControlLib\bin\Debug\UserControlLib.dll
+E:\C#\自定义控件\UserControlLib\bin\Debug\UserControlLib.pdb
+E:\C#\自定义控件\UserControlLib\obj\Debug\UserControlLib.csproj.CoreCompileInputs.cache
+E:\C#\自定义控件\UserControlLib\obj\Debug\UserControlLib.dll
+E:\C#\自定义控件\UserControlLib\obj\Debug\UserControlLib.pdb
+E:\C#\自定义控件\UserControlLib\obj\Debug\UserControlLib.Properties.Resources.resources
+E:\C#\自定义控件\UserControlLib\obj\Debug\UserControlLib.csproj.GenerateResource.cache
+E:\C#\自定义控件\UserControlLib\obj\Debug\UserControlLib.MyGaugePanel.resources
+E:\C#\自定义控件\UserControlLib\obj\Debug\UserControlLib.LEDSignalLamp.resources
+E:\C#\自定义控件\UserControlLib\obj\Debug\UserControlLib.csproj.AssemblyReference.cache
+E:\C#\自定义控件\UserControlLib\obj\Debug\UserControlLib.ParmeterSet.resources
+D:\Sample\C#\第十三章 Windows窗体高级控件\自定义控件\UserControlLib\bin\Debug\UserControlLib.dll
+D:\Sample\C#\第十三章 Windows窗体高级控件\自定义控件\UserControlLib\bin\Debug\UserControlLib.pdb
+D:\Sample\C#\第十三章 Windows窗体高级控件\自定义控件\UserControlLib\obj\Debug\UserControlLib.csproj.AssemblyReference.cache
+D:\Sample\C#\第十三章 Windows窗体高级控件\自定义控件\UserControlLib\obj\Debug\UserControlLib.LEDSignalLamp.resources
+D:\Sample\C#\第十三章 Windows窗体高级控件\自定义控件\UserControlLib\obj\Debug\UserControlLib.MyGaugePanel.resources
+D:\Sample\C#\第十三章 Windows窗体高级控件\自定义控件\UserControlLib\obj\Debug\UserControlLib.ParmeterSet.resources
+D:\Sample\C#\第十三章 Windows窗体高级控件\自定义控件\UserControlLib\obj\Debug\UserControlLib.Properties.Resources.resources
+D:\Sample\C#\第十三章 Windows窗体高级控件\自定义控件\UserControlLib\obj\Debug\UserControlLib.csproj.GenerateResource.cache
+D:\Sample\C#\第十三章 Windows窗体高级控件\自定义控件\UserControlLib\obj\Debug\UserControlLib.csproj.CoreCompileInputs.cache
+D:\Sample\C#\第十三章 Windows窗体高级控件\自定义控件\UserControlLib\obj\Debug\UserControlLib.dll
+D:\Sample\C#\第十三章 Windows窗体高级控件\自定义控件\UserControlLib\obj\Debug\UserControlLib.pdb

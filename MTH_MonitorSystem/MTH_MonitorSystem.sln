@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTH_MonitorSystem", "MTH_MonitorSystem.csproj", "{0CE3763B-6B4D-4CC6-9CCE-D7FAAAF3D34C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTH_Models", "..\MTH_Models\MTH_Models.csproj", "{598A3494-EC13-4F63-8893-11822299596C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zj.MTHHelper", "..\zj.MTHHelper\zj.MTHHelper.csproj", "{62B3D845-FBDE-4F79-8BA0-8A77E8981AC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zj.DAL", "..\zj.DAL\zj.DAL.csproj", "{8DAC60DC-4EB8-4591-A190-ACF4DF7C409E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zj.BLL", "..\zj.BLL\zj.BLL.csproj", "{8A4680BD-EE48-424A-BDE1-2344BFDAABF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zj.UserDefinedControl", "..\zj.UserDefinedControlLib\zj.UserDefinedControl.csproj", "{AAFB77E2-85F4-4EE6-B0D5-8F66519FC125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CE3763B-6B4D-4CC6-9CCE-D7FAAAF3D34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE3763B-6B4D-4CC6-9CCE-D7FAAAF3D34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE3763B-6B4D-4CC6-9CCE-D7FAAAF3D34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE3763B-6B4D-4CC6-9CCE-D7FAAAF3D34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598A3494-EC13-4F63-8893-11822299596C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598A3494-EC13-4F63-8893-11822299596C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598A3494-EC13-4F63-8893-11822299596C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598A3494-EC13-4F63-8893-11822299596C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B3D845-FBDE-4F79-8BA0-8A77E8981AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B3D845-FBDE-4F79-8BA0-8A77E8981AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B3D845-FBDE-4F79-8BA0-8A77E8981AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B3D845-FBDE-4F79-8BA0-8A77E8981AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DAC60DC-4EB8-4591-A190-ACF4DF7C409E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DAC60DC-4EB8-4591-A190-ACF4DF7C409E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DAC60DC-4EB8-4591-A190-ACF4DF7C409E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DAC60DC-4EB8-4591-A190-ACF4DF7C409E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4680BD-EE48-424A-BDE1-2344BFDAABF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4680BD-EE48-424A-BDE1-2344BFDAABF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4680BD-EE48-424A-BDE1-2344BFDAABF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4680BD-EE48-424A-BDE1-2344BFDAABF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAFB77E2-85F4-4EE6-B0D5-8F66519FC125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAFB77E2-85F4-4EE6-B0D5-8F66519FC125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAFB77E2-85F4-4EE6-B0D5-8F66519FC125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAFB77E2-85F4-4EE6-B0D5-8F66519FC125}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D85F0063-7132-46A6-A0D5-BB417EF64F10}
+	EndGlobalSection
+EndGlobal
